@@ -10,7 +10,7 @@ Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/app/xclock-%{version}.
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	pkgconfig >= 0.19
+BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXaw-devel
 BuildRequires:	xorg-lib-libXft-devel
 BuildRequires:	xorg-lib-libxkbfile-devel
