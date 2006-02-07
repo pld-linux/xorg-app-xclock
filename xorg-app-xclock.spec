@@ -7,6 +7,8 @@ License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xclock-%{version}.tar.bz2
 # Source0-md5:	81af93fb9bd06319fd16b694b0f03aeb
+Source1:	xclock.desktop
+Source2:	xclock.png
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -43,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+install -D %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}/xclock.desktop
+install -D %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}/xclock.png
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -51,4 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/X11/app-defaults/*
+%{_desktopdir}/xclock.desktop
+%{_pixmapsdir}/xclock.png
 %{_mandir}/man1/*.1x*
