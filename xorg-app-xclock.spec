@@ -1,12 +1,12 @@
 Summary:	xclock application
 Summary(pl):	Aplikacja xclock
 Name:		xorg-app-xclock
-Version:	1.0.1
+Version:	1.0.2
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xclock-%{version}.tar.bz2
-# Source0-md5:	81af93fb9bd06319fd16b694b0f03aeb
+Source0:	http://xorg.freedesktop.org/releases/individual/app/xclock-%{version}.tar.bz2
+# Source0-md5:	6b930326f71993fb54b7203902b387cd
 Source1:	xclock.desktop
 Source2:	xclock.png
 URL:		http://xorg.freedesktop.org/
