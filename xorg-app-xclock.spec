@@ -1,5 +1,5 @@
 Summary:	xclock application
-Summary(pl.UTF-8):   Aplikacja xclock
+Summary(pl.UTF-8):	Aplikacja xclock
 Name:		xorg-app-xclock
 Version:	1.0.2
 Release:	1
