@@ -1,5 +1,5 @@
 Summary:	xclock application
-Summary(pl):	Aplikacja xclock
+Summary(pl.UTF-8):   Aplikacja xclock
 Name:		xorg-app-xclock
 Version:	1.0.2
 Release:	1
@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xclock appliaction.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xclock.
 
 %prep
