@@ -1,5 +1,5 @@
-Summary:	xclock application
-Summary(pl.UTF-8):	Aplikacja xclock
+Summary:	xclock application - analog/digital clock for X
+Summary(pl.UTF-8):	Aplikacja xclock - analogowy lub cyfrowy zegar dla X
 Name:		xorg-app-xclock
 Version:	1.0.3
 Release:	1
@@ -22,10 +22,13 @@ Requires:	xorg-lib-libXt >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xclock appliaction.
+The xclock program displays the time in analog or digital form. The
+time is continuously updated at a frequency which may be specified by
+the user.
 
 %description -l pl.UTF-8
-Aplikacja xclock.
+Program xclock wyświetla czas w postaci analogowej lub cyfrowej. Czas
+jest stale uaktualniany z częstotliwością określoną przez użytkownika.
 
 %prep
 %setup -q -n xclock-%{version}
