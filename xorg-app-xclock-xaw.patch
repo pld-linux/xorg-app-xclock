@@ -1,0 +1,19 @@
+commit 48663cb8af72ea5e0528a341a7dc8865aa84fad2
+Author: James Cloos <cloos@jhcloos.com>
+Date:   Wed Aug 20 10:32:49 2008 -0400
+
+    xaw8 is gone, use xaw7
+
+diff --git a/configure.ac b/configure.ac
+index 7878169..17e9c8e 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -38,7 +38,7 @@ AC_SEARCH_LIBS([iconv], [iconv],
+ 
+ dnl Required dependencies
+ PKG_CHECK_MODULES(XCLOCK_X11, x11)
+-XAW_CHECK_XPRINT_SUPPORT(XAW)
++PKG_CHECK_MODULES(XAW, xaw7)
+ XCLOCK_CFLAGS="$XCLOCK_X11_CFLAGS $XAW_CFLAGS"
+ XCLOCK_LIBS="$XCLOCK_X11_LIBS $XAW_LIBS"
+ 
