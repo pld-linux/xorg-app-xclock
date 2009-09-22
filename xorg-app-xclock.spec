@@ -1,12 +1,12 @@
 Summary:	xclock application - analog/digital clock for X
 Summary(pl.UTF-8):	Aplikacja xclock - analogowy lub cyfrowy zegar dla X
 Name:		xorg-app-xclock
-Version:	1.0.3
-Release:	4
+Version:	1.0.4
+Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xclock-%{version}.tar.bz2
-# Source0-md5:	2b1a3d030d87e62a591db8ee4c0072e6
+# Source0-md5:	bb9fd5e00d39c348a0078b97fdf8258f
 Source1:	xclock.desktop
 Source2:	xclock.png
 Patch0:		%{name}-xaw.patch
